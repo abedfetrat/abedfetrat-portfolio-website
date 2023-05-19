@@ -1,0 +1,24 @@
+{
+  "name": "abedfetrat-portfolio-website",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./input.css -o ./index.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abedfetrat-portfolio-website.git"
+  },
+  "author": "abedfetrat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abedfetrat-portfolio-website/issues"
+  },
+  "homepage": "https://github.com/abedfetrat-portfolio-website#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
